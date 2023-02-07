@@ -6,42 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/style.css">
-    <title>Document</title>
+    <title>Any Phone Mask with Select-Option</title>
 </head>
 
 <body>
 
 
-    <div class="sdo-input-container">
-        <div class="sdo-input">
-            <span>Номер телефона</span>
+    <div class="list-mask__container">
+        <div class="list-mask">
             <input type="tel" data-type="phone" class="tel" id="telephoneInput">
-            <div class="sdo-input__caret">
+            <div class="list-mask__caret">
                 <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 5.5L5 0.5L10 5.5H0Z" fill="black" />
                 </svg>
             </div>
         </div>
-        <ul class="sdo-input__list">
-            <li class="sdo-input__list_item" data-telephone-country="true" data-mask="+7 (999) 999-99-99"
+        <ul class="list-mask__list">
+            <li class="list-mask__list_item" data-telephone-country="true" data-mask="+7 (999) 999-99-99"
                 data-placeholder="+7 (___) ___ __ __">
                 <img src="./src/img/countries/russia.svg" alt="flag">
                 <span class="country-name">Российская федерация</span>
                 <span class="phone-mask">+7</span>
             </li>
-            <li class="sdo-input__list_item" data-telephone-country="true" data-mask="+998 (99) 999-99-99"
+            <li class="list-mask__list_item" data-telephone-country="true" data-mask="+998 (99) 999-99-99"
                 data-placeholder="+998 (__) ___ __ __">
                 <img src="./src/img/countries/uz.svg" alt="flag">
                 <span class="country-name">Узбекистан</span>
                 <span class="phone-mask">+998</span>
             </li>
-            <li class="sdo-input__list_item" data-telephone-country="true" data-mask="+992 (999) 99-99-99"
-                data-placeholder="+992 (___) __ __ __">
-                <img src="./src/img/countries/uz.svg" alt="flag">
-                <span class="country-name">Таджикистан</span>
-                <span class="phone-mask">+998</span>
-            </li>
-            <li class="sdo-input__list_item" data-telephone-country="true" data-mask="+992 (999) 99-99-99"
+            <li class="list-mask__list_item" data-telephone-country="true" data-mask="+992 (999) 99-99-99"
                 data-placeholder="+992 (___) __ __ __">
                 <img src="./src/img/countries/uz.svg" alt="flag">
                 <span class="country-name">Таджикистан</span>

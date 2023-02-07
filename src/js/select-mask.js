@@ -46,8 +46,8 @@ $('input[data-type="phone"]').on('blur', function () {
 });
 
 //Работа листа стран
-let caret = document.querySelector(".sdo-input__caret")
-let list = document.querySelector(".sdo-input__list")
+let caret = document.querySelector(".list-mask__caret")
+let list = document.querySelector(".list-mask__list")
 
 caret.addEventListener('click', () => {
     caret.classList.toggle('active')

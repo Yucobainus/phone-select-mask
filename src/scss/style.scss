@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.sdo-input-container {
+.list-mask__container {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@
 input:focus {
     outline: none;
 }
-.sdo-input {
+.list-mask {
     position: relative;
     &__caret {
         position: absolute;
@@ -31,7 +31,7 @@ input:focus {
             cursor: pointer;
         }
     }
-    &.sdo-input-error {
+    &.list-mask-error {
         span {
             color: #d92828;
         }
